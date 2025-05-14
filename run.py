@@ -22,7 +22,6 @@ from instruction_manual_generator import InstructionManualGenerator
 from typing import List, Dict, Optional, Any, Literal
 from datetime import datetime
 
-
 def setup_logger(folder_path):
     log_file_path = os.path.join(folder_path, 'agent.log')
 
